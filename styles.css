@@ -4,7 +4,26 @@ html {
 }
 
 body {
-margin: 0;
+  background: white;
+}
+
+body a {
+  color: black;
+  text-decoration: none;
+}
+
+body h3 {
+  margin: 30px 10px 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+body p {
+  font-family: "Roboto Thin", sans-serif;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
 }
 
 .header__title{
@@ -126,5 +145,20 @@ body {
   }
   
   img {
-    width: 15%;
+    width: 100%;
+    object-fit: cover;
+
   }
+ 
+  .novelties-flag p {
+    margin: 5px 10px 5px 10px;
+}
+
+.novelties-flag {
+  background-color: #9ae2d0;
+    color: #278666;
+    font-size: 16px;
+    position: absolute;
+    right: 1rem;
+    margin-top: 0.5rem;
+}
