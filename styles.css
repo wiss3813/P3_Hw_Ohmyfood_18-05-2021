@@ -1,5 +1,6 @@
 html {
   max-width: 1440px;
+  min-width: 378px;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
@@ -30,7 +31,7 @@ font-family: "Roboto Thin", sans-serif;
 }
 
 .header__img {
-  width: 75%;
+  width: 5%;
   max-width: 600px;
   min-width: 300px;
   padding: 20px 0px 20px 0px;
@@ -188,8 +189,8 @@ footer{
   padding: 8px 0px 20px 10px;
 }
 footer h3 {
+  font-weight:100;
   font-family: "Shrikhand" !important;
-  font-weight: normal;
 }
 footer li {
   font-family: "Roboto", sans-serif;
@@ -200,10 +201,36 @@ footer ul {
   padding: 10px 0px;
 }
 footer a {
+  margin-left: 5px;
   color: white !important;
 }
 body h3 {
+    margin: 30px 10px 15px;
+    font-family: "Roboto", sans-serif;
+}
+footer i {
+  justify-content: space-around;
+  font-size: medium;
+}
+
+@media (min-width: 900px){
+.section-restaurants {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.section-fonctionnalities {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 20px;
+}
+}
+
+.section-fonctionnalities .minicard {
+  background-color: #F6F6F6;
+  border-radius: 25px;
+  box-shadow: 0px 2px 19px -2px rgb(0 0 0 / 17%);
   font-family: "Roboto", sans-serif;
+  margin: 20px 20px;
 }
 
 
