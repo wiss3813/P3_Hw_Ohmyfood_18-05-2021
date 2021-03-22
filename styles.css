@@ -251,6 +251,7 @@ footer i {
 	position: absolute;
 	right: 15px;
 	top: 14rem;
+	overflow: hidden;
 	
   }
   
@@ -260,14 +261,7 @@ footer i {
 	color:  #9356DC;
 	background-color: #D579D5;
 	width: 55%;
-  }
-  .menu__like {
-    transition-duration: .25s;
-    background-color: #f6f6f6;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    mix-blend-mode: lighten;
+	overflow: hidden;
   }
   /* Heart img end */
 
