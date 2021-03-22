@@ -242,7 +242,6 @@ footer i {
 
 /* Heart img */
 .heart i {
-	display: inline-block;
 	cursor: pointer;
 	fill: #818181;
 	transition-duration: 2s;
@@ -252,11 +251,9 @@ footer i {
 	right: 15px;
 	top: 14rem;
 	overflow: hidden;
-	
-  }
+	}
   
   .heart i:hover{
-	animation: animateHeart .4s;
     transform: scale(1.1);
 	color:  #9356DC;
 	background-color: #D579D5;
