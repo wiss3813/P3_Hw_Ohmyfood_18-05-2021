@@ -1,610 +1,33 @@
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-/* Document
-   ========================================================================== */
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
 html {
+  max-width: 1440px;
+  min-width: 378px;
   line-height: 1.15;
-  /* 1 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */
 }
 
-/* Sections
-   ========================================================================== */
-/**
- * Remove the margin in all browsers.
- */
 body {
-  margin: 0;
+display: inline-block;
+box-sizing: border-box;
 }
 
-/**
- * Render the `main` element consistently in IE.
- */
-main {
-  display: block;
+body a {
+color: black;
+text-decoration: none;
 }
 
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+body h3 {
+margin: 30px 10px 15px;
+font-family: "Roboto", sans-serif;
 }
 
-/* Grouping content
-   ========================================================================== */
-/**
- * 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE.
- */
-hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+body p {
+font-family: "Roboto Thin", sans-serif;
 }
 
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
-}
-
-/* Text-level semantics
-   ========================================================================== */
-/**
- * Remove the gray background on active links in IE 10.
- */
-a {
-  background-color: transparent;
-}
-
-/**
- * 1. Remove the bottom border in Chrome 57-
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
- */
-abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */
-}
-
-/**
- * Add the correct font weight in Chrome, Edge, and Safari.
- */
-b,
-strong {
-  font-weight: bolder;
-}
-
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-code,
-kbd,
-samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
-}
-
-/**
- * Add the correct font size in all browsers.
- */
-small {
-  font-size: 80%;
-}
-
-/**
- * Prevent `sub` and `sup` elements from affecting the line height in
- * all browsers.
- */
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sub {
-  bottom: -0.25em;
-}
-
-sup {
-  top: -0.5em;
-}
-
-/* Embedded content
-   ========================================================================== */
-/**
- * Remove the border on images inside links in IE 10.
- */
-img {
-  border-style: none;
-}
-
-/* Forms
-   ========================================================================== */
-/**
- * 1. Change the font styles in all browsers.
- * 2. Remove the margin in Firefox and Safari.
- */
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
-}
-
-/**
- * Show the overflow in IE.
- * 1. Show the overflow in Edge.
- */
-button,
-input {
-  /* 1 */
-  overflow: visible;
-}
-
-/**
- * Remove the inheritance of text transform in Edge, Firefox, and IE.
- * 1. Remove the inheritance of text transform in Firefox.
- */
-button,
-select {
-  /* 1 */
-  text-transform: none;
-}
-
-/**
- * Correct the inability to style clickable types in iOS and Safari.
- */
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
-
-/**
- * Remove the inner border and padding in Firefox.
- */
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
-}
-
-/**
- * Restore the focus styles unset by the previous rule.
- */
-button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
-
-/**
- * Correct the padding in Firefox.
- */
-fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
-
-/**
- * 1. Correct the text wrapping in Edge and IE.
- * 2. Correct the color inheritance from `fieldset` elements in IE.
- * 3. Remove the padding so developers are not caught out when they zero out
- *    `fieldset` elements in all browsers.
- */
-legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */
-}
-
-/**
- * Add the correct vertical alignment in Chrome, Firefox, and Opera.
- */
-progress {
-  vertical-align: baseline;
-}
-
-/**
- * Remove the default vertical scrollbar in IE 10+.
- */
-textarea {
-  overflow: auto;
-}
-
-/**
- * 1. Add the correct box sizing in IE 10.
- * 2. Remove the padding in IE 10.
- */
-[type="checkbox"],
-[type="radio"] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
-}
-
-/**
- * Correct the cursor style of increment and decrement buttons in Chrome.
- */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
-
-/**
- * 1. Correct the odd appearance in Chrome and Safari.
- * 2. Correct the outline style in Safari.
- */
-[type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
-}
-
-/**
- * Remove the inner padding in Chrome and Safari on macOS.
- */
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-/**
- * 1. Correct the inability to style clickable types in iOS and Safari.
- * 2. Change font properties to `inherit` in Safari.
- */
-::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
-}
-
-/* Interactive
-   ========================================================================== */
-/*
- * Add the correct display in Edge, IE 10+, and Firefox.
- */
-details {
-  display: block;
-}
-
-/*
- * Add the correct display in all browsers.
- */
-summary {
-  display: list-item;
-}
-
-/* Misc
-   ========================================================================== */
-/**
- * Add the correct display in IE 10+.
- */
-template {
-  display: none;
-}
-
-/**
- * Add the correct display in IE 10.
- */
-[hidden] {
-  display: none;
-}
-
-/* Font Styles variables */
-.loader {
-  animation: loader 0.01s;
-  animation-delay: 1.10s;
-  animation-fill-mode: both;
-  align-items: center;
-  background-color: #F6F6F6;
-  display: flex;
-  height: 100%;
-  justify-content: center;
-  left: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 10000;
-}
-
-.loader__item {
-  animation-iteration-count: 1;
-  animation: jump 1s;
-  border-radius: 40px;
-  height: 40px;
-  width: 40px;
-}
-
-.loader__itemContainer {
-  display: flex;
-  justify-content: space-between;
-  width: 200px;
-}
-
-.loader__item--1 {
-  background-color: #9356DC;
-}
-
-.loader__item--2 {
-  animation-delay: 0.25s;
-  background-color: #FF79DA;
-}
-
-.loader__item--3 {
-  animation-delay: 0.5s;
-  background-color: #99E2D0;
-}
-
-.order-button {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  padding: 30px;
-}
-
-.order-button p {
-  background: linear-gradient(0deg, #d58adb 0%, #b17ddb 80%);
-  border-radius: 30px;
-  box-shadow: -1px 3px 25px -10px rgba(0, 0, 0, 0.65);
-  color: white;
-  padding: 15px 40px;
-}
-
-@media screen and (min-width: 768px) {
-  .section-one {
-    padding: 10px 20px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .section-one {
-    padding: 10px 50px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .section-fonctionnalities {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-bottom: 20px;
-  }
-}
-
-.section-fonctionnalities .minicard {
-  background-color: #F6F6F6;
-  border-radius: 25px;
-  box-shadow: 0px 2px 19px -2px rgba(0, 0, 0, 0.17);
-  font-family: "Roboto", sans-serif;
-  margin: 20px 20px;
-}
-
-.section-fonctionnalities .minicard__content {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  height: 70px;
-}
-
-.section-fonctionnalities .minicard__content .circle {
-  background-color: #9356DC;
-  border-radius: 50%;
-  color: white;
-  font-size: 15px;
-  margin: 0px 10px 0px -11px;
-  padding: 5px 8px;
-}
-
-.section-fonctionnalities .minicard__content p {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  margin-left: 10px;
-}
-
-.section-fonctionnalities .minicard__content .miniicon {
-  width: 50px;
-  font-size: 20px;
-  text-align: center;
-  color: #818181;
-}
-
-.section-fonctionnalities .minicard .secondary {
-  background-color: #F4EEF4 !important;
-  border-radius: 15px;
-}
-
-.section-fonctionnalities .minicard .secondary .miniicon {
-  color: #9256dc !important;
-}
-
-.section-two {
-  padding: 10px 0px 5px 0px;
-  background-color: #F6F6F6;
-}
-
-@media screen and (min-width: 600px) {
-  .section-two {
-    padding: 10px 20px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .section-two {
-    padding: 10px 50px;
-  }
-}
-
-.section-restaurants {
-  background-color: #F6F6F6;
-  padding-bottom: 30px;
-}
-
-@media (min-width: 900px) {
-  .section-restaurants {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-.section-restaurants .restaurant-card {
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: 0px 26px 58px -22px rgba(0, 0, 0, 0.48);
-  margin: 10px;
-  overflow: hidden;
-  position: relative;
-}
-
-.section-restaurants .restaurant-card img {
-  height: 160px;
-  object-fit: cover;
-  width: 100%;
-}
-
-.section-restaurants .restaurant-card .content {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 5px;
-}
-
-.section-restaurants .restaurant-card .card-content {
-  flex: 1;
-  margin: 5px 0px 5px 10px;
-  width: 150px;
-}
-
-.section-restaurants .restaurant-card .card-content h4 {
-  margin: 0;
-}
-
-.section-restaurants .restaurant-card .restaurant-name {
-  font-family: "Roboto", sans-serif;
-  font-weight: bolder;
-}
-
-.section-restaurants .restaurant-card .restaurant-location {
-  font-family: "Roboto Thin", sans-serif;
-  font-weight: lighter;
-}
-
-.section-restaurants .restaurant-card .novelties-flag {
-  background-color: #9ae2d0;
-  color: #278666;
-  font-size: 13px;
-  position: absolute;
-  right: 10px;
-  top: 10px;
-}
-
-.section-restaurants .restaurant-card .novelties-flag p {
-  margin: 5px 10px 5px 10px;
-}
-
-.heart svg {
-  cursor: pointer;
-  fill: #818181;
-  margin-right: 10px;
-  transition: .4s;
-  width: 20px;
-}
-
-.heart:hover svg {
-  animation: animateHeart .4s;
-  fill: #9356DC;
-}
-
-footer {
-  background-color: #363636;
-  color: #F6F6F6 !important;
-  padding: 8px 0px 20px 10px;
-}
-
-@media screen and (min-width: 600px) {
-  footer {
-    padding: 10px 20px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  footer {
-    padding: 10px 50px;
-  }
-}
-
-footer h3 {
-  font-family: "Shrikhand" !important;
-  font-weight: normal;
-  margin: 8px;
-}
-
-footer li {
-  font-family: "Roboto", sans-serif;
-  list-style: none;
-  margin: 8px;
-}
-
-footer a {
-  color: white !important;
-}
-
-footer i {
-  font-size: 13px;
-  margin-right: 8px;
-}
-
-footer ul {
-  padding: 10px 0px;
-}
 
-.header__title {
+.header__title{
+  margin-top: 0px;
+	width: 100%;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -612,14 +35,14 @@ footer ul {
 }
 
 .header__img {
-  padding: 20px 0px 20px 0px;
-  width: 150px;
+  max-width: 600px;
+  min-width: 300px;
 }
 
 .header__location {
   align-items: center;
   background: #eaeaea;
-  box-shadow: -2px 19px 21px -8px rgba(0, 0, 0, 0.26) inset;
+  box-shadow: -2px 19px 21px -8px rgb(0 0 0 / 26%) inset;
   display: flex;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
@@ -627,8 +50,8 @@ footer ul {
   width: 100%;
 }
 
-.header__details {
-  margin: 15px;
+.header__details{
+  margin:15px;
 }
 
 .explore-location {
@@ -639,8 +62,8 @@ footer ul {
 }
 
 .explore-location__title {
-  font-size: 18px;
-  padding: 20px 75px 0px;
+      font-size: 18px;
+      padding: 20px 75px 0px;
 }
 
 .explore-location__subtitle {
@@ -649,17 +72,17 @@ footer ul {
   margin-bottom: 55px;
   padding: 0 40px;
 }
-
 .explore-location__button {
   background: linear-gradient(#D579D5, #9356DC);
   border-radius: 50px;
-  box-shadow: 1px 16px 43px -2px rgba(0, 0, 0, 0.15);
+  box-shadow: 1px 16px 43px -2px rgb(0 0 0 / 15%);
   color: white;
   font-size: 16px;
-  padding: 18px 30px;
+  padding: 11px 30px 12.5px;
 }
 
 .header-title {
+  font-family: "Roboto", sans-serif;
   align-items: center;
   display: flex;
   height: 70px;
@@ -670,12 +93,36 @@ footer ul {
   height: 25px;
 }
 
-.header-title .back-home {
-  left: 15px;
-  position: absolute;
-  top: 30px;
+.section-one{
+padding: 1rem;
 }
 
+.minicard__content{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 70px;
+}
+.miniicon{
+width: 50px;
+font-size: 20px;
+text-align: center;
+color: #818181;
+}
+
+.minicard__content.secondary .miniicon{
+color:#9256dc;
+}
+
+.minicard__content .circle {
+  background-color: #9356DC;
+  border-radius: 50%;
+  color: white;
+  font-size: 15px;
+  margin: 0px 10px 0px -11px;
+  padding: 5px 8px;
+}
 .banniere-img {
   margin-bottom: -30px;
   max-height: 300px;
@@ -683,249 +130,155 @@ footer ul {
   width: 100%;
 }
 
-body {
-  background: white;
+img {
+  width: 100%;
+  height:200px;
+  margin-bottom: 0.8rem;
+  border-radius: 12px;
 }
 
-body a {
-  color: black;
-  text-decoration: none;
+.section-two img {
+  object-fit: cover;
 }
 
-body h3 {
-  margin: 30px 10px 15px;
-  font-family: "Roboto", sans-serif;
+.novelties-flag p {
+  margin: 5px 10px 5px 10px;
 }
 
-body p {
-  font-family: "Roboto Thin", sans-serif;
-}
-
-.menu-header {
-  align-items: center;
-  display: flex;
-  font-weight: normal;
-  justify-content: space-between;
-  padding: 0 20px;
-}
-
-.menu-header h2 {
-  font-family: "Shrikhand";
-}
-
-.sections-restaurants-menu {
-  background-color: #F6F6F6;
-  border-radius: 30px 30px 0 0;
-  position: relative;
-}
-
-@media screen and (min-width: 900px) {
-  .sections-restaurants-menu {
-    margin: -10px 50px 0px;
-  }
-}
-
-.restaurants-menus {
-  display: grid;
-}
-
-@media (min-width: 1025px) {
-  .restaurants-menus {
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 1rem;
-    margin: 0 50px;
-  }
-}
-
-.menus {
-  max-width: 100%;
-  overflow: hidden;
-  padding: 0px 10px;
-}
-
-.menus__title {
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
-  padding-bottom: 6px;
-  position: relative;
-  text-transform: uppercase;
-}
-
-.menus__title::after {
-  background-color: #99E2D0;
-  bottom: 0;
-  content: "";
-  height: 4px;
-  left: 0;
-  position: absolute;
-  width: 30px;
-}
-
-.menu-content {
-  background-color: #fff;
-  border-radius: 15px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.02);
-  display: flex;
-  margin: 20px 0px;
-  overflow: hidden;
-  padding: 10px;
-  cursor: pointer;
-  animation: apparition .5s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
-  transform: scale(0);
-  max-width: 100%;
-}
-
-.menu-content__header {
-  flex: 1;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.menu-content__title {
-  flex: 1;
-  font-family: "Roboto", sans-serif;
+.novelties-flag {
+background-color: #9ae2d0;
+  color: #278666;
   font-size: 16px;
-  font-weight: bold;
-  margin: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  position: absolute;
+  right: 1rem;
+  margin-top: 0.5rem;
 }
 
-.menu-content__description {
+h4 {
   margin: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.menu-content__price {
-  align-items: flex-end;
-  display: flex;
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  justify-content: flex-end;
-  padding-left: 20px;
 }
 
-.menu-content__confirmation {
-  align-items: center;
-  background-color: #99E2D0;
-  display: flex;
-  justify-content: center;
-  margin: -16px -120px -16px 16px;
-  transition-duration: .5s;
-  width: 104px;
+.card-content{
+  margin: 5px 0px 5px 10px;
 }
 
-.menu-content:hover .menu-content__confirmation {
-  margin-right: -10px;
+.content{
+  padding: 1px;
 }
 
-.menu-content__check-icon {
-  align-items: center;
+.restaurant-location {
+  font-family: "Roboto Thin", sans-serif;
+  font-weight: lighter;
+}
+
+.section-two {
+  background-color: #F6F6F6;
+}
+
+.section-restaurants .restaurant-card {
   background-color: white;
-  border-radius: 100px;
-  color: #99E2D0;
-  display: flex;
-  height: 25px;
-  justify-content: center;
-  transform: rotate(180deg);
-  transition-duration: .8s;
-  width: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 26px 58px -22px rgb(0 0 0 / 48%);
+  margin: 10px;
+  overflow: hidden;
+  position: relative;
 }
 
-.menu-content:hover .menu-content__check-icon {
-  transform: rotate(0);
+footer{
+  background-color: #363636;
+  color: #F6F6F6 !important;
+  padding: 8px 0px 20px 10px;
+}
+footer h3 {
+  font-weight:100;
+  font-family: "Shrikhand" !important;
+}
+footer li {
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  margin: 8px;
+}
+footer ul {
+  padding: 10px 0px;
+}
+footer a {
+  margin-left: 5px;
+  color: white !important;
+}
+body h3 {
+    margin: 30px 10px 15px;
+    font-family: "Roboto", sans-serif;
+}
+footer i {
+  justify-content: space-around;
+  font-size: medium;
 }
 
-.menu-content__icon {
-  color: #99E2D0;
+@media (min-width: 900px){
+.section-restaurants {
+    margin-bottom: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    row-gap: 2rem;
+}
+.section-fonctionnalities {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 20px;   
+}
 }
 
-@keyframes apparition {
-  0% {
-    transform: scale(0);
-    opacity: 0%;
+.section-fonctionnalities .minicard {
+  background-color: #F6F6F6;
+  border-radius: 25px;
+  box-shadow: 0px 2px 19px -2px rgb(0 0 0 / 17%);
+  font-family: "Roboto", sans-serif;
+  margin: 20px 20px;
+}
+
+@media (min-width: 1000px){
+  .section-restaurants {
+    grid-template-columns: repeat(4,1fr);
   }
-  50% {
-    opacity: 0%;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 100%;
-  }
-}
+  .header__details {
+   font-size: 35px;
+   font-weight: 400;
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   font-family: "Shrikland" !important;
 
-@keyframes loader {
-  100% {
-    opacity: 0;
-    z-index: -10;
   }
 }
+/* Loader */
 
-@keyframes jump {
-  0% {
-    transform: translateY(0);
+
+/* Loader */
+
+/* Heart img */
+.heart svg {
+	cursor: pointer;
+	fill: #818181;
+	transition-duration: .2s;
+	width: 26px;
+	font-size: 5px;
+	position: absolute;
+	right: 15px;
+	top: 14rem;
+  margin-right: 20px;
+	}
+  
+  .heart svg:hover{
+    transform: scale(1.2);
+	  fill:  #9356DC;
+    transition: .2s;
+    
   }
-  25% {
-    transform: translateY(0.5rem);
+
+  svg {
+    position: absolute;
   }
-  75% {
-    transform: translateY(-0.5rem);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
+  /* Heart img end */
 
-@keyframes animateHeart {
-  0% {
-    transform: scale(1);
-  }
-  40% {
-    transform: scale(1.3);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
 
-.delay-1 {
-  animation-delay: .1s;
-}
-
-.delay-2 {
-  animation-delay: .2s;
-}
-
-.delay-3 {
-  animation-delay: .3s;
-}
-
-.delay-4 {
-  animation-delay: .4s;
-}
-
-.delay-5 {
-  animation-delay: .5s;
-}
-
-.delay-6 {
-  animation-delay: .6s;
-}
-
-.delay-7 {
-  animation-delay: .7s;
-}
-
-.delay-8 {
-  animation-delay: .8s;
-}
-
-.delay-9 {
-  animation-delay: .9s;
-}
