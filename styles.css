@@ -1,6 +1,5 @@
 html {
-  max-width: 1440px;
-  min-width: 378px;
+  min-width: 300px;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
@@ -35,8 +34,11 @@ font-family: "Roboto Thin", sans-serif;
 }
 
 .header__img {
+  justify-content: center;
+  height: 4rem;
   max-width: 600px;
-  min-width: 300px;
+  min-width: 200px;
+  margin: 6rem;
 }
 
 .header__location {
@@ -251,6 +253,12 @@ footer i {
 
   }
 }
+@media (min-width: 800px) {
+  .explore-location {
+    margin-top: 5rem;
+    height:  18rem;
+  }
+}
 /* Loader */
 
 
@@ -266,15 +274,14 @@ footer i {
 	position: absolute;
 	right: 15px;
 	top: 14rem;
-  margin-right: 20px;
+  margin-right: 20px:
 	}
   
   .heart svg:hover{
     transform: scale(1.2);
 	  fill:  #9356DC;
     transition: .2s;
-    
-  }
+    }
   
   /* Heart img end */
 
