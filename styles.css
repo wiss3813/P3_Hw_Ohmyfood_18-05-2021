@@ -279,24 +279,32 @@ footer i {
 }
 
 /* Heart img */
-.heart svg {
+.heart i {
 	cursor: pointer;
-	fill: #818181;
+	color: whitesmoke;
+  stroke: black;
 	transition-duration: .2s;
 	width: 26px;
-	font-size: 5px;
+	font-size: 28px;
 	position: absolute;
 	right: 15px;
 	top: 14rem;
   margin-right: 20px;
 	}
   
-  .heart svg:hover{
+  .heart i:hover{
     transform: scale(1.2);
-	  fill:  #9356DC;
+	  color:  #9356DC;
     transition: .2s;
+    -webkit-transition: color 1.9s ease-in-out;
+    -moz-transition: color 1.9s ease-in-out;
+    -ms-transition: color 1.8s ease-in-out;
+    -o-transition: color 1.8s ease-in-out;
+    transition: color 1.9s ease-in-out;
     }
+
   
+    
   /* Heart img end */
 
 
