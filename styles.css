@@ -85,6 +85,12 @@ font-family: "Roboto Thin", sans-serif;
   padding: 11px 30px 12.5px;
 }
 
+.explore-location__button:hover {
+    -background: -webkit-gradient(linear, left top, left bottom, from(yellow), to(#C2185B));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .header-title {
   font-family: "Roboto", sans-serif;
   align-items: center;
@@ -150,7 +156,7 @@ img {
 }
 
 .novelties-flag {
-background-color: #9ae2d0;
+  background-color: #9ae2d0;
   color: #278666;
   font-size: 16px;
   position: absolute;
@@ -272,34 +278,35 @@ footer i {
   }
 }
 
-/* Heart svg */
-
+/* Heart img */
 .heart svg {
-  cursor: pointer;
-  fill: #818181;
-  transition: .4s;
-  width: 35px;
-  position: absolute;
-  bottom: 0; right: 0;
-  margin-bottom: 1rem;
-  margin-right: 1rem;
-}
-
-.heart:hover svg {
-  animation: animateHeart .4s;
-  fill: #9356DC;
-}
+	cursor: pointer;
+	fill: #818181;
+	transition-duration: .2s;
+	width: 26px;
+	font-size: 5px;
+	position: absolute;
+	right: 15px;
+	top: 14rem;
+  margin-right: 20px;
+	}
   
-   @keyframes animateHeart {
-      0% {
-        transform: scale(1);
-      }
-      40% {
-        transform: scale(1.3);
-      }
-      100% {
-        transform: scale(1);
-      }
+  .heart svg:hover{
+    transform: scale(1.2);
+	  fill:  #9356DC;
+    transition: .2s;
     }
   
-  /* Heart svg end */
+  /* Heart img end */
+
+
+  .explore-location__button {
+  background: webkit-gradient(linear, left top, left bottom, from(yellow), to(#C2185B));
+  webkit-background-clip: text;
+  webkit-text-fill-color: transparent;
+  border-radius: 50px;
+  box-shadow: 1px 16px 43px -2px rgba(0, 0, 0, 0.15);
+  color: white;
+  font-size: 16px;
+  padding: 18px 30px;
+}
