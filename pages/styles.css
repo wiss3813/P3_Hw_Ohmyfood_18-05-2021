@@ -460,7 +460,7 @@ body p {
   justify-content: center;
   margin: -16px -120px -16px 16px;
   transition-duration: .5s;
-  width: 104px;
+  width: 50px;
 }
 
 .menu-content:hover .menu-content__confirmation {
