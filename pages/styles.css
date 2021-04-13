@@ -612,3 +612,9 @@ padding: 0rem 1rem 0rem 0rem ;
    justify-content: center;
  }
 }
+
+.back-home i {
+font-size: 29px;
+position: absolute;
+bottom: -20px;
+}
