@@ -442,6 +442,7 @@ body p {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-size: smaller;
 }
 
 .menu-content__price {
@@ -450,7 +451,6 @@ body p {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   justify-content: flex-end;
-  padding-left: 20px;
 }
 
 .menu-content__confirmation {
@@ -472,7 +472,7 @@ body p {
 }
 .menu-content:hover .menu-content__price {
 
-  margin-right: 25px;
+  margin-right: 0px;
 
 }
 
