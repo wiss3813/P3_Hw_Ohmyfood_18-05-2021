@@ -454,17 +454,26 @@ body p {
 }
 
 .menu-content__confirmation {
-  align-items: center;
-  background-color: #99E2D0;
-  display: flex;
-  justify-content: center;
-  margin: -16px -120px -16px 16px;
-  transition-duration: .5s;
-  width: 50px;
+    background-color: #99e2d0;
+    margin: -2rem -5rem -1rem 1rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: .5s;
 }
+
+
 
 .menu-content:hover .menu-content__confirmation {
   margin-right: -10px;
+  right: 0px;
+  margin-top: -10px;
+}
+.menu-content:hover .menu-content__price {
+
+  margin-right: 25px;
+
 }
 
 .menu-content__check-icon {
@@ -512,6 +521,49 @@ body p {
   100% {
     transform: scale(1);
   }
+}
+
+.menu__btn:before, .menu__like {
+  bottom: 10px;
+  right: 15px;
+}
+.menu__like--bg{
+  position: absolute;
+  bottom: 16px;
+  right: 17px;
+  opacity: 0;
+}
+.menu__like--bg:hover{
+  opacity: 0.9;
+  transition: .9s;
+  animation: animateHeart .4s;
+  background: linear-gradient(
+0deg
+,#9356dc,#ff79da);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.menu__like--noBg {
+  right: 14px;
+  margin-bottom: 16px;
+  
+ 
+}
+
+.heart {
+display: flex;
+float: right;
+padding: 0rem 1rem 0rem 0rem ;
+}
+
+.heart:hover {
+  transition: .5s;
+  animation: animateHeart .4s;
+  background: -webkit-gradient(linear, left top, left bottom, from(yellow), to(#C2185B));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
 }
 
 .delay-1 {
