@@ -3,22 +3,18 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-
 body {
   margin: 0;
 }
-
 
 main {
   display: block;
 }
 
-
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
-
 
 a {
   background-color: transparent;
@@ -30,7 +26,6 @@ a {
   justify-content: center;
   padding: 30px;
 }
-
 .order-button p {
   background: linear-gradient(0deg, #d58adb 0%, #b17ddb 80%);
   border-radius: 30px;
@@ -38,19 +33,16 @@ a {
   color: white;
   padding: 15px 40px;
 }
-
 @media screen and (min-width: 768px) {
   .section-one {
     padding: 10px 20px;
   }
 }
-
 @media screen and (min-width: 1024px) {
   .section-one {
     padding: 10px 50px;
   }
 }
-
 @media screen and (min-width: 768px) {
   .section-fonctionnalities {
     display: grid;
@@ -58,7 +50,6 @@ a {
     margin-bottom: 20px;
   }
 }
-
 .section-fonctionnalities .minicard {
   background-color: #F6F6F6;
   border-radius: 25px;
@@ -66,7 +57,6 @@ a {
   font-family: "Roboto", sans-serif;
   margin: 20px 20px;
 }
-
 .section-fonctionnalities .minicard__content {
   display: flex;
   flex-direction: row;
@@ -74,7 +64,6 @@ a {
   align-items: center;
   height: 70px;
 }
-
 .section-fonctionnalities .minicard__content .circle {
   background-color: #9356DC;
   border-radius: 50%;
@@ -83,58 +72,48 @@ a {
   margin: 0px 10px 0px -11px;
   padding: 5px 8px;
 }
-
 .section-fonctionnalities .minicard__content p {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   margin-left: 10px;
 }
-
 .section-fonctionnalities .minicard__content .miniicon {
   width: 50px;
   font-size: 20px;
   text-align: center;
   color: #818181;
 }
-
 .section-fonctionnalities .minicard .secondary {
   background-color: #F4EEF4 !important;
   border-radius: 15px;
 }
-
 .section-fonctionnalities .minicard .secondary .miniicon {
   color: #9256dc !important;
 }
-
 .section-two {
   padding: 10px 0px 5px 0px;
   background-color: #F6F6F6;
 }
-
 @media screen and (min-width: 600px) {
   .section-two {
     padding: 10px 20px;
   }
 }
-
 @media screen and (min-width: 1024px) {
   .section-two {
     padding: 10px 50px;
   }
 }
-
 .section-restaurants {
   background-color: #F6F6F6;
   padding-bottom: 30px;
 }
-
 @media (min-width: 900px) {
   .section-restaurants {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 }
-
 .section-restaurants .restaurant-card {
   background-color: white;
   border-radius: 15px;
@@ -143,40 +122,33 @@ a {
   overflow: hidden;
   position: relative;
 }
-
 .section-restaurants .restaurant-card img {
   height: 160px;
   object-fit: cover;
   width: 100%;
 }
-
 .section-restaurants .restaurant-card .content {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
   padding: 5px;
 }
-
 .section-restaurants .restaurant-card .card-content {
   flex: 1;
   margin: 5px 0px 5px 10px;
   width: 150px;
 }
-
 .section-restaurants .restaurant-card .card-content h4 {
   margin: 0;
 }
-
 .section-restaurants .restaurant-card .restaurant-name {
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
 }
-
 .section-restaurants .restaurant-card .restaurant-location {
   font-family: "Roboto Thin", sans-serif;
   font-weight: lighter;
 }
-
 .section-restaurants .restaurant-card .novelties-flag {
   background-color: #9ae2d0;
   color: #278666;
@@ -185,22 +157,8 @@ a {
   right: 10px;
   top: 10px;
 }
-
 .section-restaurants .restaurant-card .novelties-flag p {
   margin: 5px 10px 5px 10px;
-}
-
-.heart svg {
-  cursor: pointer;
-  fill: #818181;
-  margin-right: 10px;
-  transition: .4s;
-  width: 20px;
-}
-
-.heart:hover svg {
-  animation: animateHeart .4s;
-  fill: #9356DC;
 }
 
 footer {
@@ -208,40 +166,33 @@ footer {
   color: #F6F6F6 !important;
   padding: 8px 0px 20px 10px;
 }
-
 @media screen and (min-width: 600px) {
   footer {
     padding: 10px 20px;
   }
 }
-
 @media screen and (min-width: 1024px) {
   footer {
     padding: 10px 50px;
   }
 }
-
 footer h3 {
   font-family: "Shrikhand" !important;
   font-weight: normal;
   margin: 8px;
 }
-
 footer li {
   font-family: "Roboto", sans-serif;
   list-style: none;
   margin: 8px;
 }
-
 footer a {
   color: white !important;
 }
-
 footer i {
   font-size: 13px;
   margin-right: 8px;
 }
-
 footer ul {
   padding: 10px 0px;
 }
@@ -252,12 +203,10 @@ footer ul {
   flex-direction: column;
   justify-content: center;
 }
-
 .header__img {
   padding: 20px 0px 20px 0px;
   width: 150px;
 }
-
 .header__location {
   align-items: center;
   background: #eaeaea;
@@ -268,7 +217,6 @@ footer ul {
   justify-content: center;
   width: 100%;
 }
-
 .header__details {
   margin: 15px;
 }
@@ -279,19 +227,16 @@ footer ul {
   padding-bottom: 75px;
   text-align: center;
 }
-
 .explore-location__title {
   font-size: 18px;
   padding: 20px 75px 0px;
 }
-
 .explore-location__subtitle {
   font-size: 18px;
   font-weight: 100;
   margin-bottom: 55px;
   padding: 0 40px;
 }
-
 .explore-location__button {
   background: linear-gradient(#D579D5, #9356DC);
   border-radius: 50px;
@@ -307,11 +252,9 @@ footer ul {
   height: 70px;
   justify-content: center;
 }
-
 .header-title img {
   height: 25px;
 }
-
 .header-title .back-home {
   left: 15px;
   position: absolute;
@@ -328,17 +271,14 @@ footer ul {
 body {
   background: white;
 }
-
 body a {
   color: black;
   text-decoration: none;
 }
-
 body h3 {
   margin: 30px 10px 15px;
   font-family: "Roboto", sans-serif;
 }
-
 body p {
   font-family: "Roboto Thin", sans-serif;
 }
@@ -350,7 +290,6 @@ body p {
   justify-content: space-between;
   padding: 0 20px;
 }
-
 .menu-header h2 {
   font-family: "Shrikhand";
 }
@@ -360,17 +299,15 @@ body p {
   border-radius: 30px 30px 0 0;
   position: relative;
 }
+.restaurants-menus {
+  display: grid;
+}
 
 @media screen and (min-width: 900px) {
   .sections-restaurants-menu {
     margin: -10px 50px 0px;
   }
 }
-
-.restaurants-menus {
-  display: grid;
-}
-
 @media (min-width: 1025px) {
   .restaurants-menus {
     grid-template-columns: repeat(3, 1fr);
@@ -384,7 +321,6 @@ body p {
   overflow: hidden;
   padding: 0px 10px;
 }
-
 .menus__title {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
@@ -392,7 +328,6 @@ body p {
   position: relative;
   text-transform: uppercase;
 }
-
 .menus__title::after {
   background-color: #99E2D0;
   bottom: 0;
@@ -402,7 +337,6 @@ body p {
   position: absolute;
   width: 30px;
 }
-
 .menu-content {
   background-color: #fff;
   border-radius: 15px;
@@ -418,14 +352,12 @@ body p {
   transform: scale(0);
   max-width: 100%;
 }
-
 .menu-content__header {
   flex: 1;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-
 .menu-content__title {
   flex: 1;
   font-family: "Roboto", sans-serif;
@@ -436,7 +368,6 @@ body p {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-
 .menu-content__description {
   margin: 0;
   overflow: hidden;
@@ -444,7 +375,6 @@ body p {
   white-space: nowrap;
   font-size: smaller;
 }
-
 .menu-content__price {
   align-items: flex-end;
   display: flex;
@@ -452,7 +382,6 @@ body p {
   font-weight: 700;
   justify-content: flex-end;
 }
-
 .menu-content__confirmation {
     background-color: #99e2d0;
     margin: -2rem -5rem -1rem 1rem;
@@ -462,20 +391,14 @@ body p {
     justify-content: center;
     transition-duration: .5s;
 }
-
-
-
 .menu-content:hover .menu-content__confirmation {
   margin-right: -10px;
   right: 0px;
   margin-top: -10px;
 }
 .menu-content:hover .menu-content__price {
-
   margin-right: 0px;
-
 }
-
 .menu-content__check-icon {
   align-items: center;
   background-color: white;
@@ -488,11 +411,9 @@ body p {
   transition-duration: .8s;
   width: 25px;
 }
-
 .menu-content:hover .menu-content__check-icon {
   transform: rotate(0);
 }
-
 .menu-content__icon {
   color: #99E2D0;
 }
@@ -510,7 +431,6 @@ body p {
     opacity: 100%;
   }
 }
-
 @keyframes animateHeart {
   0% {
     transform: scale(1);
@@ -523,32 +443,23 @@ body p {
   }
 }
 
-.menu__btn:before, .menu__like {
-  bottom: 10px;
-  right: 15px;
-}
 .menu__like--bg{
   position: absolute;
-  bottom: 16px;
-  right: 17px;
   opacity: 0;
 }
 .menu__like--bg:hover{
   opacity: 0.9;
-  transition: .9s;
+  transition: 0.3s;
   animation: animateHeart .4s;
   background: linear-gradient(
 0deg
 ,#9356dc,#ff79da);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
 }
 .menu__like--noBg {
   right: 14px;
   margin-bottom: 16px;
-  
- 
 }
 
 .heart {
@@ -556,16 +467,18 @@ display: flex;
 float: right;
 padding: 0rem 1rem 0rem 0rem ;
 }
-
 .heart:hover {
   transition: .5s;
-  animation: animateHeart .4s;
   background: -webkit-gradient(linear, left top, left bottom, from(yellow), to(#C2185B));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
 }
 
+.back-home i {
+font-size: 29px;
+position: absolute;
+bottom: -20px;
+}
 .delay-1 {
   animation-delay: .1s;
 }
@@ -613,8 +526,3 @@ padding: 0rem 1rem 0rem 0rem ;
  }
 }
 
-.back-home i {
-font-size: 29px;
-position: absolute;
-bottom: -20px;
-}
