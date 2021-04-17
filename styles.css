@@ -3,27 +3,21 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
-
 body {
   margin: 0;
   padding: 0;
 }
-
 body a {
 color: black;
 text-decoration: none;
 }
-
 body h3 {
 margin: 30px 10px 15px;
 font-family: "Roboto", sans-serif;
 }
-
 body p {
 font-family: "Roboto Thin", sans-serif;
 }
-
-
 .header__title{
   margin-top: 0px;
 	width: 100%;
@@ -33,7 +27,6 @@ font-family: "Roboto Thin", sans-serif;
   flex-direction: column;
   justify-content: center;
 }
-
 .header__img {
   justify-content: center;
   height: 2rem;
@@ -41,7 +34,6 @@ font-family: "Roboto Thin", sans-serif;
   min-width: 200px;
   margin: 6rem;
 }
-
 .header__location {
   align-items: center;
   background: #eaeaea;
@@ -52,24 +44,20 @@ font-family: "Roboto Thin", sans-serif;
   justify-content: center;
   width: 100%;
 }
-
 .header__details{
   margin:15px;
   font-family: "Roboto," 500;
 }
-
 .explore-location {
   background-color: #F6F6F6;
   font-family: "Roboto", sans-serif;
   padding-bottom: 75px;
   text-align: center;
 }
-
 .explore-location__title {
       font-size: 18px;
       padding: 20px 75px 0px;
 }
-
 .explore-location__subtitle {
   font-size: 18px;
   font-weight: 100;
@@ -84,13 +72,11 @@ font-family: "Roboto Thin", sans-serif;
   font-size: 16px;
   padding: 11px 30px 12.5px;
 }
-
 .explore-location__button:hover {
     background: -webkit-gradient(linear, left top, left bottom, from(yellow), to(#C2185B));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 .header-title {
   font-family: "Roboto", sans-serif;
   align-items: center;
@@ -98,15 +84,12 @@ font-family: "Roboto Thin", sans-serif;
   height: 70px;
   justify-content: center;
 }
-
 .header-title img {
   height: 25px;
 }
-
 .section-one{
 padding: 1rem;
 }
-
 .minicard__content{
   display: flex;
   flex-direction: row;
@@ -120,11 +103,9 @@ font-size: 20px;
 text-align: center;
 color: #818181;
 }
-
 .minicard__content.secondary .miniicon{
 color:#9256dc;
 }
-
 .minicard__content .circle {
   background-color: #9356DC;
   border-radius: 50%;
@@ -139,7 +120,6 @@ color:#9256dc;
   object-fit: cover;
   width: 100%;
 }
-
 img {
   width: 100%;
   height:200px;
@@ -194,8 +174,6 @@ h4 {
   overflow: hidden;
   position: relative;
 }
-
-
 footer{
   background-color: #363636;
   color: #F6F6F6 !important;
@@ -235,7 +213,6 @@ footer i {
    justify-content: center;
  }
 }
-
 @media (min-width: 650px){
 .section-restaurants {
     margin-bottom: 4rem;
@@ -249,7 +226,6 @@ footer i {
   margin-bottom: 20px;   
 }
 }
-
 .section-fonctionnalities .minicard {
   background-color: #F6F6F6;
   border-radius: 25px;
@@ -257,7 +233,6 @@ footer i {
   font-family: "Roboto", sans-serif;
   margin: 20px 20px;
 }
-
 @media (min-width: 1000px){
   .section-restaurants {
     grid-template-columns: repeat(4,1fr);
@@ -280,7 +255,6 @@ footer i {
 }
 
 /* Heart img */
-
 .menu__like--bg{
   position: absolute;
   bottom: 16px;
@@ -289,38 +263,22 @@ footer i {
 }
 .menu__like--bg:hover{
   opacity: 0.9;
-  transition: .3s;
-  animation: animateHeart .4s;
+  transition: .9s;
   background: linear-gradient(
 0deg
 ,#9356dc,#ff79da);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
-@keyframes animateHeart {
-  0% {
-    transform: scale(1);
-  }
-  40% {
-    transform: scale(1.3);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
 .menu__like--noBg {
   right: 14px;
   margin-bottom: 16px;
 }
-
 .heart {
 display: flex;
 float: right;
 padding: 0rem 1rem 0rem 0rem ;
 }
-
 .heart:hover {
   transition: .5s;
   background: -webkit-gradient(linear, left top, left bottom, from(yellow), to(#C2185B));
@@ -329,11 +287,59 @@ padding: 0rem 1rem 0rem 0rem ;
 }
 /* Heart img end */
 
-
-
-
-
 /* loader */
+
+/* animation loader */
+
+.loader_bg{
+  position: fixed;
+  z-index: 999999;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.loader {
+  border: 0 solid transparent;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: calc(50vh - 75px);
+  left: calc(50vw - 75px);
+}
+
+.loader:before, .loader:after{
+  content: '';
+  border: 1em solid #ff5733;
+  border-radius: 50%;
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: loader 2s linear infinite;
+  opacity: 0;
+}
+
+.loader::before{
+  animation-delay: .5s;
+}
+@keyframes loader {
+  0%{
+    transform: scale(0);
+    opacity: 0;
+  }
+
+50%{
+  opacity: 1;
+}
+100%{
+  transform: scale(1);
+  opacity: 0;
+}
+}
+
 
 
 
