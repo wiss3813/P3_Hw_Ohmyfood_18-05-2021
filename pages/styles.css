@@ -220,32 +220,6 @@ footer ul {
 .header__details {
   margin: 15px;
 }
-
-.explore-location {
-  background-color: #F6F6F6;
-  font-family: "Roboto", sans-serif;
-  padding-bottom: 75px;
-  text-align: center;
-}
-.explore-location__title {
-  font-size: 18px;
-  padding: 20px 75px 0px;
-}
-.explore-location__subtitle {
-  font-size: 18px;
-  font-weight: 100;
-  margin-bottom: 55px;
-  padding: 0 40px;
-}
-.explore-location__button {
-  background: linear-gradient(#D579D5, #9356DC);
-  border-radius: 50px;
-  box-shadow: 1px 16px 43px -2px rgba(0, 0, 0, 0.15);
-  color: white;
-  font-size: 16px;
-  padding: 18px 30px;
-}
-
 .header-title {
   align-items: center;
   display: flex;
@@ -267,7 +241,6 @@ footer ul {
   object-fit: cover;
   width: 100%;
 }
-
 body {
   background: white;
 }
@@ -302,7 +275,6 @@ body p {
 .restaurants-menus {
   display: grid;
 }
-
 @media screen and (min-width: 900px) {
   .sections-restaurants-menu {
     margin: -10px 50px 0px;
@@ -315,7 +287,6 @@ body p {
     margin: 0 50px;
   }
 }
-
 .menus {
   max-width: 100%;
   overflow: hidden;
@@ -525,4 +496,10 @@ bottom: -20px;
    justify-content: center;
  }
 }
+.order-button p:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(yellow), to(#C2185B));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
