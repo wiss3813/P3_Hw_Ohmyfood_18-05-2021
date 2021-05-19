@@ -51,3 +51,5 @@ Couleurs :
 Primaire: #9356DC
 Secondaire: #FF79DA
 Tertiaire: #99E2D0
+
+![image](https://user-images.githubusercontent.com/76759031/118820011-29379800-b8b6-11eb-82f4-900b94038676.png)
