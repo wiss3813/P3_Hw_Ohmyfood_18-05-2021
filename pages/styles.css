@@ -161,6 +161,10 @@ a {
   margin: 5px 10px 5px 10px;
 }
 
+.novelties-flag {
+  border-radius: 2px;
+}
+
 footer {
   background-color: #363636;
   color: #F6F6F6 !important;
