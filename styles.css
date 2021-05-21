@@ -36,17 +36,34 @@ font-family: "Roboto Thin", sans-serif;
 }
 .header__location {
   align-items: center;
-  background: #eaeaea;
+  justify-content: center;
+  margin-bottom: -65px;
   box-shadow: -2px 19px 21px -8px rgb(0 0 0 / 26%) inset;
   display: flex;
-  font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
+  font-weight: bolder;
   justify-content: center;
   width: 100%;
 }
-.header__details{
+.header__details {
   margin:15px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto" sans-serif;
+}
+.header__city {
+  margin:15px;
+  font-family:"Roboto", sans-serif;
+  justify-content: center; 
+  background-color: transparent;
+  border-style: none;
+}
+.city__location:focus {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+.city__location {
+justify-content:center;
+font-size: 15.2px;
+font-family: "Roboto" sans-serif;
 }
 .explore-location {
   background-color: #F6F6F6;
@@ -126,15 +143,12 @@ img {
   margin-bottom: 0.8rem;
   border-radius: 12px;
 }
-
 .section-two img {
   object-fit: cover;
 }
-
 .novelties-flag p {
   margin: 5px 10px 5px 10px;
 }
-
 .novelties-flag {
   background-color: #9ae2d0;
   color: #278666;
@@ -144,29 +158,23 @@ img {
   margin-top: 0.5rem;
   border-radius: 2px;
 }
-
 h4 {
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
-
 .card-content{
   margin: 5px 0px 5px 10px;
 }
-
 .content{
   padding: 1px;
 }
-
 .restaurant-location {
   font-family: "Roboto Thin", sans-serif;
   font-weight: lighter;
 }
-
 .section-two {
   background-color: #F6F6F6;
 }
-
 .section-restaurants .restaurant-card {
   background-color: white;
   border-radius: 15px;
@@ -291,7 +299,6 @@ padding: 0rem 1rem 0rem 0rem ;
 /* loader */
 
 /* animation loader */
-
 .loader_bg{
   position: fixed;
   z-index: 999999;
@@ -299,7 +306,6 @@ padding: 0rem 1rem 0rem 0rem ;
   width: 100%;
   height: 100%;
 }
-
 .loader {
   border: 0 solid transparent;
   border-radius: 50%;
@@ -309,7 +315,6 @@ padding: 0rem 1rem 0rem 0rem ;
   top: calc(50vh - 75px);
   left: calc(50vw - 75px);
 }
-
 .loader:before, .loader:after{
   content: '';
   border: 1em solid #ff5733;
@@ -322,7 +327,6 @@ padding: 0rem 1rem 0rem 0rem ;
   animation: loader 2s linear infinite;
   opacity: 0;
 }
-
 .loader::before{
   animation-delay: .5s;
 }
