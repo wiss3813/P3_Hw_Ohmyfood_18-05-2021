@@ -64,6 +64,7 @@ font-family: "Roboto Thin", sans-serif;
 justify-content:center;
 font-size: 15.2px;
 font-family: "Roboto" sans-serif;
+padding-left: 5px;
 }
 .explore-location {
   background-color: #F6F6F6;
@@ -114,14 +115,19 @@ padding: 1rem;
   align-items: center;
   height: 70px;
 }
+.minicard__content:hover {
+  background-color: #ecd0fc;
+  border-radius: 25px;
+}
+
 .miniicon{
 width: 50px;
 font-size: 20px;
 text-align: center;
 color: #818181;
 }
-.minicard__content.secondary .miniicon{
-color:#9256dc;
+.miniicon:hover {
+  color: #9356DC;
 }
 .minicard__content .circle {
   background-color: #9356DC;
