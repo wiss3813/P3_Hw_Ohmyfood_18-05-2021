@@ -65,11 +65,11 @@ font-family: "Roboto Thin", sans-serif;
 }
 .city__location {
   display: flex;
-justify-content:center;
-font-size: 18px;
-padding-right: 30px;
-padding-left: 10px;
-width: 130px;
+  justify-content:center;
+  font-size: 18px;
+  padding-right: 30px;
+  padding-left: 10px;
+  width: 130px;
 }
 @media (min-width:300px){
 .city__location{
@@ -81,7 +81,7 @@ width: 130px;
   border: transparent;
 }
 input {
-border: 0px;
+  border: 0px;
 }
 .input:active {
   border: 0px;
@@ -93,8 +93,8 @@ border: 0px;
   text-align: center;
 }
 .explore-location__title {
-      font-size: 18px;
-      padding: 40px 75px 0px;
+  font-size: 18px;
+  padding: 40px 75px 0px;
 }
 .explore-location__subtitle {
   font-size: 18px;
@@ -111,9 +111,9 @@ border: 0px;
   padding: 11px 30px 12.5px;
 }
 .explore-location__button:hover {
-    background: -webkit-gradient(linear, left top, left bottom, from(yellow), to(#C2185B));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: -webkit-gradient(linear, left top, left bottom, from(yellow), to(#C2185B));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .header-title {
   font-family: "Roboto", sans-serif;
@@ -141,8 +141,8 @@ padding: 1rem;
 }
 .minicard__cotent:hover {
 	transition: .5s;
-            transform: scale(1.02);
-            box-shadow: 0px 0px 10px 2px rgba(147, 86, 220,0.6);
+  transform: scale(1.02);
+  box-shadow: 0px 0px 10px 2px rgba(147, 86, 220,0.6);
 }
 
 .miniicon{
@@ -216,8 +216,8 @@ h4 {
 }
 .restaurant-card:hover {
 	transition: .5s;
-            transform: scale(1.02);
-            box-shadow: 0px 0px 10px 2px rgba(147, 86, 220,0.6);
+  transform: scale(1.02);
+  box-shadow: 0px 0px 10px 2px rgba(147, 86, 220,0.6);
 }
 footer{
   background-color: #363636;
