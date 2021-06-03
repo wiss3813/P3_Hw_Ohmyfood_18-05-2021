@@ -10,7 +10,7 @@ Openclassrooms Hafsa wissem
 https://wiss3813.github.io/P3_Hw_Ohmyfood_18-05-2021/
 
 
-Objectifs:
+Cahier des charges:
 
 Développer un site proposant le menu de 4 grands restaurants parisiens.
 Permettre la réservation en ligne et la composition de menus.
