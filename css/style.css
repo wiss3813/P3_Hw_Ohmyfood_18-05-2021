@@ -293,6 +293,7 @@ footer i {
   }
   .footer {
   padding: !important 8px 0px 3px 10px;
+  line-height: unset;  
   }
 }
 @media (min-width: 800px) {
