@@ -1,6 +1,6 @@
 html {
   min-width: 300px;
-  line-height: 1.15;
+  line-height: unset;
   -webkit-text-size-adjust: 100%;
 }
 body {
