@@ -290,7 +290,9 @@ footer i {
    justify-content: space-between;
    text-align: center;
    font-family: "Shrikland" !important;
-
+  }
+  .footer {
+    padding: 8px 0px 3px 10px;
   }
 }
 @media (min-width: 800px) {
@@ -331,8 +333,6 @@ padding: 0rem 1rem 0rem 0rem ;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-/* Heart img end */
-
 /* loader */
 
 /* animation loader */
