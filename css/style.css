@@ -1,6 +1,6 @@
 html {
   min-width: 300px;
-  line-height: 1.27;
+  line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
 body {
@@ -219,7 +219,7 @@ h4 {
 footer{
   background-color: #363636;
   color: #F6F6F6 !important;
-  padding: 8px 0px 20px 10px;
+  padding: 8px 0px 1px 10px;
 }
 footer h3 {
   font-weight:100;
@@ -378,17 +378,6 @@ padding: 0rem 1rem 0rem 0rem ;
 }
 }
 
-/* Correction responsive footer */
-
-.fa, .fab, .fad, .fal, .far, .fas {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  line-height: unset;
-}
 
 
 
