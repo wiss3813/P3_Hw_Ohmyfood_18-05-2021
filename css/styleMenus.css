@@ -1,0 +1,506 @@
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+a {
+  background-color: transparent;
+}
+
+.order-button {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.order-button p {
+  background: linear-gradient(0deg, #d58adb 0%, #b17ddb 80%);
+  border-radius: 30px;
+  box-shadow: -1px 3px 25px -10px rgba(0, 0, 0, 0.65);
+  color: white;
+  padding: 15px 40px;
+}
+@media screen and (min-width: 768px) {
+  .section-one {
+    padding: 10px 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .section-one {
+    padding: 10px 50px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-fonctionnalities {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 20px;
+  }
+}
+.section-fonctionnalities .minicard {
+  background-color: #F6F6F6;
+  border-radius: 25px;
+  box-shadow: 0px 2px 19px -2px rgba(0, 0, 0, 0.17);
+  font-family: "Roboto", sans-serif;
+  margin: 20px 20px;
+}
+.section-fonctionnalities .minicard__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 70px;
+}
+.section-fonctionnalities .minicard__content .circle {
+  background-color: #9356DC;
+  border-radius: 50%;
+  color: white;
+  font-size: 15px;
+  margin: 0px 10px 0px -11px;
+  padding: 5px 8px;
+}
+.section-fonctionnalities .minicard__content p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.section-fonctionnalities .minicard__content .miniicon {
+  width: 50px;
+  font-size: 20px;
+  text-align: center;
+  color: #818181;
+}
+.section-fonctionnalities .minicard .secondary {
+  background-color: #F4EEF4 !important;
+  border-radius: 15px;
+}
+.section-fonctionnalities .minicard .secondary .miniicon {
+  color: #9256dc !important;
+}
+.section-two {
+  padding: 10px 0px 5px 0px;
+  background-color: #F6F6F6;
+}
+@media screen and (min-width: 600px) {
+  .section-two {
+    padding: 10px 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .section-two {
+    padding: 10px 50px;
+  }
+}
+.section-restaurants {
+  background-color: #F6F6F6;
+  padding-bottom: 30px;
+}
+@media (min-width: 900px) {
+  .section-restaurants {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.section-restaurants .restaurant-card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 26px 58px -22px rgba(0, 0, 0, 0.48);
+  margin: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.section-restaurants .restaurant-card img {
+  height: 160px;
+  object-fit: cover;
+  width: 100%;
+}
+.section-restaurants .restaurant-card .content {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+.section-restaurants .restaurant-card .card-content {
+  flex: 1;
+  margin: 5px 0px 5px 10px;
+  width: 150px;
+}
+.section-restaurants .restaurant-card .card-content h4 {
+  margin: 0;
+}
+.section-restaurants .restaurant-card .restaurant-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+}
+.section-restaurants .restaurant-card .restaurant-location {
+  font-family: "Roboto Thin", sans-serif;
+  font-weight: lighter;
+}
+.section-restaurants .restaurant-card .novelties-flag {
+  background-color: #9ae2d0;
+  color: #278666;
+  font-size: 13px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.section-restaurants .restaurant-card .novelties-flag p {
+  margin: 5px 10px 5px 10px;
+}
+
+
+footer {
+  background-color: #363636;
+  color: #F6F6F6 !important;
+  padding: 8px 0px 20px 10px;
+}
+@media screen and (min-width: 600px) {
+  footer {
+    padding: 10px 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  footer {
+    padding: 10px 50px;
+  }
+}
+footer h3 {
+  font-family: "Shrikhand" !important;
+  font-weight: normal;
+  margin: 8px;
+}
+footer li {
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  margin: 8px;
+}
+footer a {
+  color: white !important;
+}
+footer i {
+  font-size: 13px;
+  margin-right: 8px;
+}
+footer ul {
+  padding: 10px 0px;
+}
+
+.header__title {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header__img {
+  padding: 20px 0px 20px 0px;
+  width: 150px;
+}
+.header__location {
+  align-items: center;
+  background: #eaeaea;
+  box-shadow: -2px 19px 21px -8px rgba(0, 0, 0, 0.26) inset;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  justify-content: center;
+  width: 100%;
+}
+.header__details {
+  margin: 15px;
+}
+.header-title {
+  align-items: center;
+  display: flex;
+  height: 70px;
+  justify-content: center;
+}
+.header-title img {
+  height: 25px;
+}
+.header-title .back-home {
+  left: 15px;
+  position: absolute;
+  top: 30px;
+}
+
+.banniere-img {
+  margin-bottom: -30px;
+  max-height: 300px;
+  object-fit: cover;
+  width: 100%;
+}
+body {
+  background: white;
+}
+body a {
+  color: black;
+  text-decoration: none;
+}
+body h3 {
+  margin: 30px 10px 15px;
+  font-family: "Roboto", sans-serif;
+}
+body p {
+  font-family: "Roboto Thin", sans-serif;
+}
+
+.menu-header {
+  align-items: center;
+  display: flex;
+  font-weight: normal;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu-header h2 {
+  font-family: "Shrikhand";
+}
+
+.sections-restaurants-menu {
+  background-color: #F6F6F6;
+  border-radius: 30px 30px 0 0;
+  position: relative;
+}
+.restaurants-menus {
+  display: grid;
+}
+@media screen and (min-width: 900px) {
+  .sections-restaurants-menu {
+    margin: -10px 50px 0px;
+  }
+}
+@media (min-width: 1025px) {
+  .restaurants-menus {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+    margin: 0 50px;
+  }
+}
+.menus {
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0px 10px;
+}
+.menus__title {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  padding-bottom: 6px;
+  position: relative;
+  text-transform: uppercase;
+}
+.menus__title::after {
+  background-color: #99E2D0;
+  bottom: 0;
+  content: "";
+  height: 4px;
+  left: 0;
+  position: absolute;
+  width: 30px;
+}
+.menu-content {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.02);
+  display: flex;
+  margin: 20px 0px;
+  overflow: hidden;
+  padding: 10px;
+  cursor: pointer;
+  animation: apparition .5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  transform: scale(0);
+  max-width: 100%;
+}
+.menu-content__header {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.menu-content__title {
+  flex: 1;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.menu-content__description {
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: smaller;
+}
+.menu-content__price {
+  align-items: flex-end;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  justify-content: flex-end;
+}
+.menu-content__confirmation {
+    background-color: #99e2d0;
+    margin: -2rem -5rem -1rem 1rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: .5s;
+}
+.menu-content:hover .menu-content__confirmation {
+  margin-right: -10px;
+  right: 0px;
+  margin-top: -10px;
+}
+.menu-content:hover .menu-content__price {
+  margin-right: 0px;
+}
+.menu-content__check-icon {
+  align-items: center;
+  background-color: white;
+  border-radius: 100px;
+  color: #99E2D0;
+  display: flex;
+  height: 25px;
+  justify-content: center;
+  transform: rotate(180deg);
+  transition-duration: .8s;
+  width: 25px;
+}
+.menu-content:hover .menu-content__check-icon {
+  transform: rotate(0);
+}
+.menu-content__icon {
+  color: #99E2D0;
+}
+
+@keyframes apparition {
+  0% {
+    transform: scale(0);
+    opacity: 0%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 100%;
+  }
+}
+@keyframes animateHeart {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.menu__like--bg{
+  position: absolute;
+  opacity: 0;
+}
+.menu__like--bg:hover{
+  opacity: 0.9;
+  transition: 0.3s;
+  animation: animateHeart .4s;
+  background: linear-gradient(
+0deg
+,#9356dc,#ff79da);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu__like--noBg {
+  right: 14px;
+  margin-bottom: 16px;
+}
+
+.heart {
+display: flex;
+float: right;
+padding: 0rem 1rem 0rem 0rem ;
+}
+.heart:hover {
+  transition: .5s;
+  background: -webkit-gradient(linear, left top, left bottom, from(yellow), to(#C2185B));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.back-home i {
+font-size: 29px;
+position: absolute;
+bottom: -20px;
+}
+.delay-1 {
+  animation-delay: .1s;
+}
+
+.delay-2 {
+  animation-delay: .2s;
+}
+
+.delay-3 {
+  animation-delay: .3s;
+}
+
+.delay-4 {
+  animation-delay: .4s;
+}
+
+.delay-5 {
+  animation-delay: .5s;
+}
+
+.delay-6 {
+  animation-delay: .6s;
+}
+
+.delay-7 {
+  animation-delay: .7s;
+}
+
+.delay-8 {
+  animation-delay: .8s;
+}
+
+.delay-9 {
+  animation-delay: .9s;
+}
+
+@media (min-width: 500px){
+  footer h3 {
+    display: flex;
+    justify-content: center;
+  }
+ footer li {
+   display: flex;
+   justify-content: center;
+ }
+}
+.order-button p:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(yellow), to(#C2185B));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
