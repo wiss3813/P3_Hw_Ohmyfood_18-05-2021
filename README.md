@@ -1,16 +1,15 @@
-OH MY FOOD
+# P3_Hw_Ohmyfood_11-03-2021
 
-![image](https://user-images.githubusercontent.com/76759031/118819650-d5c54a00-b8b5-11eb-86a0-fbc48f70f773.png)
-
+Ohmyfood projèt numéro 3 
 Openclassrooms Hafsa wissem
 
 <------lien du projèt en ligne ------>
 
 
-https://wiss3813.github.io/P3_Hw_Ohmyfood_18-05-2021/
+https://wiss3813.github.io/ohmyfood/
 
 
-Cahier des charges :
+Objectifs:
 
 Développer un site proposant le menu de 4 grands restaurants parisiens.
 Permettre la réservation en ligne et la composition de menus.
@@ -45,11 +44,8 @@ Polices :
 
 Logo & titres: Shrikhand
 Texte: Roboto
-
 Couleurs :
 
 Primaire: #9356DC
 Secondaire: #FF79DA
 Tertiaire: #99E2D0
-
-![image](https://user-images.githubusercontent.com/76759031/118820011-29379800-b8b6-11eb-82f4-900b94038676.png)
